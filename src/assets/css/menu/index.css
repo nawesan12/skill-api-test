@@ -1,0 +1,9 @@
+.Menu {
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+
+    min-height:100%;
+    width: max(80%, 60%);
+    display:flex;
+    margin: 0 auto;
+}
