@@ -1,11 +1,16 @@
 .Output {
-    grid-row: 2 / 4;
-    grid-column: 2 / 3;
-    
-    background: #eee;
-    min-height:100%;
-    width: max(80%, 60%);
-    border-radius: .75rem;
-    border: 2px solid black;
-    margin: 0 auto;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2 / 4;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  background: #eee;
+  min-height: 100%;
+  width: 80%;
+  border-radius: .75rem;
+  border: 2px solid black;
+  margin: 0 auto;
+  color: #000;
 }
+/*# sourceMappingURL=index.css.map */
