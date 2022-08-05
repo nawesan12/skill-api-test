@@ -1,1 +1,1 @@
-const fix: string = "Fix"
+export const fix: string = "Fix"
