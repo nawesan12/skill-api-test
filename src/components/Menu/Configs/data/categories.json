@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Person"
+    },
+    {
+        "id": 2,
+        "name": "Pets"
+    },
+    {
+        "id": 3,
+        "name": "Weather"
+    },
+    {
+        "id": 4,
+        "name": "Account"
+    },
+    {
+        "id": 5,
+        "name": "Profile"
+    },
+    {
+        "id": 6,
+        "name": "Bank"
+    },
+    {
+        "id": 7,
+        "name": "Login"
+    },
+    {
+        "id": 8,
+        "name": "Register"
+    }
+]

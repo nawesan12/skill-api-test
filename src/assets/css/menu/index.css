@@ -5,8 +5,9 @@
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1 / 2;
-  min-height: 100%;
-  width: 80%;
+  width: 70%;
+  display: -ms-grid;
+  display: grid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -14,14 +15,137 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: 0 auto;
 }
 
 .Menu .config-modal {
   background: #101015;
-  padding: 1.5rem;
+  padding: 2rem;
   width: 100%;
-  margin: 1rem;
   border-radius: 12px;
+}
+
+.Menu .config-modal header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.Menu .config-modal header h2 {
+  font-size: var(--title-size);
+}
+
+.Menu .config-modal header button {
+  background: #000;
+  border-radius: .75rem;
+  color: #fff;
+  font-size: var(--tiny-size);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 .25rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.Menu .config-modal .categories-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 85%;
+}
+
+.Menu .config-modal .categories-buttons .category-button {
+  padding: .25rem;
+  font-size: var(--button-size);
+  width: 6.5rem;
+  height: 2.25rem;
+  margin: 0 1rem 1rem 0;
+  border-radius: .5rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+
+.Menu .config-modal .categories-buttons .Person {
+  background: #058;
+}
+
+.Menu .config-modal .categories-buttons .Pets {
+  background: #940;
+}
+
+.Menu .config-modal .categories-buttons .Weather {
+  background: #d9d9d9;
+  color: #000;
+}
+
+.Menu .config-modal .categories-buttons .Account {
+  background: #591;
+}
+
+.Menu .config-modal .categories-buttons .Profile {
+  background: #949;
+}
+
+.Menu .config-modal .categories-buttons .Bank {
+  background: -webkit-gradient(linear, left top, right top, from(#6FFFBA), to(#5287E9));
+  background: linear-gradient(90deg, #6FFFBA 0%, #5287E9 100%);
+}
+
+.Menu .config-modal .categories-buttons .Login {
+  background: -webkit-gradient(linear, left top, right top, from(#7F7FD5), to(#86A8E7));
+  background: linear-gradient(90deg, #7F7FD5 0%, #86A8E7 100%);
+}
+
+.Menu .config-modal .categories-buttons .Register {
+  background: -webkit-gradient(linear, left top, right top, from(#7F7FD5), to(#86A8E7));
+  background: linear-gradient(90deg, #7F7FD5 0%, #86A8E7 100%);
+}
+
+.Menu .config-modal .API-input {
+  padding: 1rem;
+  width: 100%;
+  border-radius: .75rem;
+  border: none;
+  outline: none;
+  font-size: var(--button-size);
+}
+
+.Menu .config-modal .apply-button {
+  display: block;
+  text-align: right;
+  padding: 1.5rem 0 0;
+}
+
+.Menu .config-modal .apply-button .apply-button-API {
+  padding: .5rem 2rem;
+  width: 10rem;
+  height: 2.5rem;
+  font-size: var(--button-size);
+  border-radius: .75rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: #023;
+  color: #fff;
 }
 /*# sourceMappingURL=index.css.map */

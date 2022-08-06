@@ -7,9 +7,9 @@ import Reactions from "./Configs/Reactions"
 export default function Menu(): JSX.Element {
     return (
         <section className='Menu'>
-            <ActualConfig />
-            <API />
             <Interface />
+            <API />
+            <ActualConfig />
             <Reactions />
         </section>
     )
